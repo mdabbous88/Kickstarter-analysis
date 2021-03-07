@@ -11,19 +11,19 @@ her goal.
  
 ## Analysis and Challenges
 ###Analysis
-    Data in the excel were wrangled and set in the proper format to do the analysis (dates were changed from Unix time to a date, Parent categry and sub categories were split into two different
-columns).
+Data in the excel were wrangled and set in the proper format to do the analysis (dates were changed from Unix time to a date (link https://github.com/mdabbous88/Kickstarter-analysis/blob/main/Changing%20Unix%20date%20to%20date.png),
+Parent categry and sub categories were split into two different columns(link https://github.com/mdabbous88/Kickstarter-analysis/blob/main/Splitting%20parent%20category%20and%20sub%20category.png).
 
 ####Theatre outcomes based on launch date
 For the theatre outcomes based on launch date, a pivot table was inserted, with the launch date to in the rows, and the outcomes as columns, the data in the pivot table counts
-the number of outcomes (successful, failed and canceled). Also a filter with the parent category and year was added to help analyse the different parent categories.
+the number of outcomes (successful, failed and canceled). Also a filter with the parent category and year was added to help analyse the different parent categories. (Link https://github.com/mdabbous88/Kickstarter-analysis/blob/main/Pivot%20table.png)
 
 ####Outcomes based on Goal
 For the outcomes based on goal, the goal ranges were set as requried, then the countifs() was used with three different criteria
 1.Outcome
 2.Pledged amount
 3.Parent category
-
+(Link https://github.com/mdabbous88/Kickstarter-analysis/blob/main/Countifs%20Criteria.png)
 ### Analysis of Outcomes Based on Launch Date
 Good news! The analysis of the outcomes based on launch date showed that plays were always more successful than failed all over the dates analysed, also, the rate of cancellation
 was mostly low. Plays is a good category to launch a project.
