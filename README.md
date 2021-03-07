@@ -13,9 +13,11 @@ her goal.
 ###Analysis
     Data in the excel were wrangled and set in the proper format to do the analysis (dates were changed from Unix time to a date, Parent categry and sub categories were split into two different
 columns).
+
 ####Theatre outcomes based on launch date
 For the theatre outcomes based on launch date, a pivot table was inserted, with the launch date to in the rows, and the outcomes as columns, the data in the pivot table counts
 the number of outcomes (successful, failed and canceled). Also a filter with the parent category and year was added to help analyse the different parent categories.
+
 ####Outcomes based on Goal
 For the outcomes based on goal, the goal ranges were set as requried, then the countifs() was used with three different criteria
 1.Outcome
