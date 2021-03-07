@@ -31,7 +31,7 @@ However, some dates have influenced successful projects more than other dates an
 
 ### Analysis of Outcomes Based on Goals
 In case the aim is a relatively smaller project, mostly goals with values less than 19999$ tend to have a more success rate than other goals values. For bigger projects,values between 35000$-45000$
-were more successful than much bigger projects requiring bigger goals. Regarding Louise's project.
+were more successful than much bigger projects requiring bigger goals.
 
 ### Challenges and Difficulties Encountered
 
